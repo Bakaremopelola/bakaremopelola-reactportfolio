@@ -1,0 +1,58 @@
+
+.experience {
+    text-align: center;
+    width: 800px;
+    height: 400px;
+  }
+  
+  .expire {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 20px; 
+  }
+  
+  .grid1, .grid2, .grid3, .grid4, .grid5, .grid6 {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  
+  .grid img {
+    width: 100px; 
+    height: 100px; 
+  }
+  
+  
+  .grid h1 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+  }
+  
+  
+  h1[grid1-text] { grid-area: grid1-text; }
+  h1[grid2-text] { grid-area: grid2-text; }
+  h1[grid3-text] { grid-area: grid3-text; }
+  h1[grid4-text] { grid-area: grid4-text; }
+  h1[grid5-text] { grid-area: grid5-text; }
+  h1[grid6-text] { grid-area: grid6-text; }
+  
+  .grid1, .grid2, .grid3, .grid4, .grid5, .grid6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .grid {
+    grid-template-areas:
+      "grid1 grid2 grid3"
+      "grid4 grid5 grid6";
+  }
+  

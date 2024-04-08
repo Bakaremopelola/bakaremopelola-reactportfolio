@@ -1,0 +1,106 @@
+.Contacts {
+    background-color: black;
+    text-align: center;
+    color: white;
+    width: 800px;
+    height: 500px;
+    
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.dmam-form {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black; 
+    padding: 20px; 
+      
+}
+
+.dmam {
+    display: block;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.contact-item i {
+    margin-right: 10px;
+}
+
+
+
+.contact-form{
+    
+    max-width: 300px;
+    margin: 20px auto;
+    background: gray;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px white;
+    
+}
+.contact-form input[type="text"],
+.contact-form textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 5px solid black;
+    border-radius: 5px;
+    background: black;
+}
+
+.contact-form textarea {
+    height: 150px;
+}
+
+.button {
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    border: 2px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: wheat;
+}
+
+.Footer {
+    display: flex;
+    background-color: white;
+    color: black;
+    padding: 20px 0;
+    justify-content: space-between;
+     width: 800px;
+     height: 30px;
+}
+
+.footer-btn {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.footer-btn button {
+    width: 100px;
+    height: 20px;
+    
+}
+
+  

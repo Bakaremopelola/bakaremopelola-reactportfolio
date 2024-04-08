@@ -1,0 +1,49 @@
+.NavBar {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: white;
+  color: black;
+  margin-top: 20px;
+  width: 800px;
+  
+}
+
+.logo img {
+  width: 50px; 
+}
+
+.nav {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ .nav li { 
+   margin-right: 20px;  
+} 
+
+.nav li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.nav li a:hover {
+  color:  orangered; 
+}
+
+.btn1 button {
+  padding: 10px 20px;
+  border: none;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn1 button:hover {
+  background-color: white;
+}

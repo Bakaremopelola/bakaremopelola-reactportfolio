@@ -1,0 +1,65 @@
+.Home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.Home1 {
+  text-align: center;
+  padding: 20px;
+}
+
+
+/* * { */
+  /* color: orangered;  */
+/* } */
+
+.intro h1 {
+  margin: 10px 0;
+  font-size: 36px;
+}
+
+.duce {
+  margin-top: 20px;
+  display: flex;
+}
+
+.duce h4 {
+  margin: 5px 0;
+  font-size: 18px;
+  display: flex;
+}
+
+.btn {
+  margin-top: 20px;
+  display: flex;
+}
+
+.bt1 {
+ 
+  font-size: 16px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px solid ;
+}
+.bt2{
+ 
+  font-size: 16px;
+  background-color: white;
+  color: black;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px solid ;
+}
+
+.btn button:hover {
+  background-color: orangered;
+}
+
+.Home2 img {
+  max-width: 30%;
+  height: auto;
+}
