@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 .About {
   display: flex;
@@ -6,13 +7,16 @@
   justify-content: space-evenly;
  width: 800px;
  height: 400px;
- margin-top: 50px;
+ margin: 50px auto 20px;
+ font-family: 'Montserrat', sans-serif
 }
 
 .AM {
-  font-size: 24px;
-  color: black;
-  margin-top: 40px;
+  background-color: black;
+  color: white; 
+  border: 2px solid black; 
+  padding: 5px 5px; 
+  margin: 50px;
 }
 
 .Aboutpage {

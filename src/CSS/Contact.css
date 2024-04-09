@@ -1,106 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 .Contacts {
+    background-color: white; 
+    padding: 20px;
+    width: fit-content;
+    margin: 50px auto 20px; 
+    font-family: 'Montserrat', sans-serif
+  }
+  
+
+  h1.CONTACT {
     background-color: black;
+    color: white; 
+    padding: 10px; 
+    margin: 50px;
+  }
+  
+  .Contacts h1 {
+    font-size: 2em;
     text-align: center;
-    color: white;
-    width: 800px;
-    height: 500px;
     
-}
-
-.contact-container {
+  }
+  
+  .dmam-form {
+    
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.dmam-form {
-    display: flex;
-    justify-content: space-between;
-    border: 2px solid black; 
-    padding: 20px; 
-      
-}
-
-.dmam {
-    display: block;
-}
-
-.contact-info {
+    justify-content: space-evenly;
+    gap: 40px;
+  }
+  
+  .dmam {
+    flex: 1;
+  }
+  
+  .dmam h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  .dmam p {
+    font-size: 1em;
+    line-height: 1.5;
+  }
+  
+  .lol {
     display: flex;
     flex-direction: column;
-    align-items: center;
-}
-
-.contact-item {
+  }
+  
+  #m {
     display: flex;
     align-items: center;
-    margin-bottom: 10px;
-}
-
-.contact-item i {
-    margin-right: 10px;
-}
-
-
-
-.contact-form{
-    
-    max-width: 300px;
-    margin: 20px auto;
-    background: gray;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0px 0px 10px white;
-    
-}
-.contact-form input[type="text"],
-.contact-form textarea {
-    width: calc(100% - 20px);
+  }
+  
+  #bling {
+    margin-left: 10px;
+  }
+  
+  .contact-form {
+    margin-top: 50px;
+    flex: 1;
+  }
+  
+  .contact-form input[type="text"] {
+    width: 100%;
     padding: 10px;
     margin-bottom: 10px;
-    border: 5px solid black;
+    border: 1px solid black;
     border-radius: 5px;
-    background: black;
-}
-
-.contact-form textarea {
-    height: 150px;
-}
-
-.button {
-    background-color: black;
+  }
+  
+  .contact-form button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: black; 
     color: white;
-    padding: 15px 20px;
-    border: 2px;
-    border-radius: 4px;
     cursor: pointer;
-}
-
-.button:hover {
-    background-color: wheat;
-}
-
-.Footer {
-    display: flex;
-    background-color: white;
-    color: black;
-    padding: 20px 0;
-    justify-content: space-between;
-     width: 800px;
-     height: 30px;
-}
-
-.footer-btn {
-    display: flex;
-    justify-content: center;
-    
-}
-
-.footer-btn button {
-    width: 100px;
-    height: 20px;
-    
-}
-
+  }
+  
+  .contact-form button:hover {
+    background-color: orangered; 
+  }
   

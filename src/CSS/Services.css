@@ -3,8 +3,8 @@
 .SERVICES {
     background-color: #f9f9f9;
     padding: 20px;
-    width: 800px;
-    height: 400px;
+    width: fit-content;
+    margin: 0 auto;
 }
 
 
@@ -27,8 +27,9 @@
 .DAD,
 .PL {
     background-color: #ffffff;
-    border: 1px solid #e0e0e0;
+    border: 1px solid black;
     padding: 20px;
+    margin: 0 auto;
 }
 
 
@@ -49,4 +50,5 @@
 .DAD-text p,
 .pl-text p {
     line-height: 1.5;
+    
 }

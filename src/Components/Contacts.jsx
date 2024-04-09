@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 
 
 
+
 function Contacts() {
   let navigate = useNavigate()
       
@@ -23,11 +24,12 @@ function Contacts() {
          
          
           <div className="Contacts">
-             <h1>CONTACT</h1>
+          <h1 className="CONTACT">CONTACT</h1>
+
               <div className="dmam-form">
               <div className="dmam">
-               <h2>Drop Me A Message</h2> <br /> <br />
-                <p>Hi there,these are my contact  <br /> details or alternatively you can  <br />send a message,either ways  <br /> GET IN TOUCH </p> <br /> <br />
+               <h2 className='drop'>Drop Me A Message</h2> 
+                <p>Hi there,these are my contact  <br /> details or alternatively you can  <br />send a message,either ways  <br /> GET IN TOUCH </p> <br />
 
                <div className="lol">
                 <div id="m"><i className="fa fa-map-marker" aria-hidden="true"></i>
@@ -56,28 +58,6 @@ function Contacts() {
            </div>
            </div>
 
-           <div className="Footer">
-           <div className="logo">
-            <img src="" alt="" />
-
-          </div>
-
-          <div className="footer-text">
-            <h3>2024-Bakaremopelola,All rights reserved</h3>
-          </div>
-
-          <div className="footer-btn">
-            <button><a href="https://facebook.com/">Facebook</a></button>
-            <button><a href="https://LinkedIn.com/">LinkedIn</a></button>
-            <button> <a href="https://twitter.com/">Twitter</a></button>
-            <button><a href="https://github.com">github</a></button>
-
-            
-
-
-          </div>
-
-        </div>
 
       </div>
   
