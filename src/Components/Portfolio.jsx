@@ -1,3 +1,5 @@
+import '../CSS/Portfolio.css'
+
 const Portfolio = () =>{
   return(
     

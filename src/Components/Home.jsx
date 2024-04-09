@@ -9,7 +9,7 @@ function Home() {
       <div className="Home">
         <div className="Home1">
           <div className="intro">
-            <h1>HI,I'M LOLA.</h1>
+            <h1>HI,  I'M LOLA.</h1>
             <h1>
               A WEB<span style={{ color: "orangered" }}>*</span> DESIGNER
             </h1>
