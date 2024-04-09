@@ -1,7 +1,9 @@
 import '../CSS/About.css'
+import { useNavigate } from "react-router-dom";
 
 
 function About() {
+  let navigate = useNavigate()
 
     return (
       <>
@@ -16,7 +18,7 @@ function About() {
         <div className="aboutstory">
          
           <p> Bakare Mopelola is a dedicated and skilled frontend web  <br />developer with a passion for crafting seamless  <br />and visually appealing user experiences. With a keen eye <br /> for design and a knack for coding,Mopelola has established   <br />herself as a proficient developer  <br />in the ever-evolving field of web development.</p>
-          <button className='bt2'>HIRE ME</button>
+          <button onClick={()=>navigate("/Contacts")} className='btn2'>Hire Me</button>
           <button className='bt1'>RESUME</button>
 
         </div>

@@ -45,7 +45,7 @@ const NavBar = () => {
         <div className="Footer">
       <div className="logo">
         
-        <img src="../../src/pictures/Pink Brown Colorful Retro Aesthetic Photography Name Logo.jpg" alt="Logo" />
+        <img src="../../src/pictures/Pink Brown Colorful Retro Aesthetic Photography Name Logo.jpg" alt="Logo"/>
       </div>
 
       <div className="footer-text">
