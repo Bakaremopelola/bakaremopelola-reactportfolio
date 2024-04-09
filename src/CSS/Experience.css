@@ -3,7 +3,7 @@
 .experience {
     text-align: center;
     width: 800px;
-    margin: 50px auto 20px;
+    margin: 50px auto 200px;
     font-family: 'Montserrat', sans-serif
   }
   
@@ -27,6 +27,7 @@
     background-color: #f2f2f2;
     padding: 20px;
     text-align: center;
+    color: black;
   }
   
   
@@ -54,6 +55,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: black;
   }
   
   

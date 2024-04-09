@@ -4,7 +4,7 @@
     background-color: white; 
     padding: 20px;
     width: fit-content;
-    margin: 50px auto 20px; 
+    margin: 50px auto 200px; 
     font-family: 'Montserrat', sans-serif
   }
   
@@ -41,6 +41,7 @@
   .dmam p {
     font-size: 1em;
     line-height: 1.5;
+    color: black;
   }
   
   .lol {
@@ -59,6 +60,7 @@
   
   .contact-form {
     margin-top: 50px;
+    margin-left: 200px;
     flex: 1;
   }
   

@@ -76,3 +76,12 @@ button:focus-visible {
 .box{
   text-align: center;
 }
+
+body {
+  background-color: #111927;
+  color: aliceblue;
+  background-image: 
+      radial-gradient(at 47% 33%, hsl(245.38, 77%, 40%) 0, transparent 59%), 
+      radial-gradient(at 82% 65%, hsl(218.00, 39%, 11%) 0, transparent 55%);
+}
+
