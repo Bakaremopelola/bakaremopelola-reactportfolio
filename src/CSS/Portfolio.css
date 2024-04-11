@@ -73,3 +73,41 @@
 .Project6 a:hover {
   color: orangered;
 }
+
+
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column; 
+  }
+
+  .centered-container {
+    height: auto; 
+    margin-bottom: 20px; 
+  }
+
+  .NavBar {
+    margin-bottom: 20px; 
+    padding: 10px; 
+  }
+
+  .nav ul {
+    flex-direction: column; 
+    align-items: center; 
+  }
+
+  .nav ul li {
+    margin-right: 0; 
+    margin-bottom: 10px; 
+    font-size: 16px; 
+  }
+
+  .Footer {
+    padding: 10px; 
+  }
+
+  .footer-btn button {
+    padding: 5px 10px; 
+    font-size: 14px; 
+  }
+}

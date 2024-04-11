@@ -86,3 +86,21 @@
     background-color: orangered; 
   }
   
+
+  @media screen and (max-width: 768px) {
+    .Contacts {
+      width: 90%;
+      margin: 20px auto 100px; 
+      padding: 10px; 
+    }
+  
+    .dmam-form {
+      flex-direction: column; 
+      gap: 20px; 
+    }
+  
+    .contact-form {
+      margin-left: 0; 
+    }
+  }
+  

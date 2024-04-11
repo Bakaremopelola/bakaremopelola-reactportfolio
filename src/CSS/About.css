@@ -72,3 +72,18 @@
 .bt2:hover {
   opacity: 0.8;
 }
+
+
+@media screen and (max-width: 768px) {
+  .About {
+    width: 90%; 
+    height: auto; 
+    margin: 10px auto 50px; 
+  }
+
+  .aboutimage,
+  .aboutstory {
+    margin-right: 0; 
+    margin-bottom: 20px; 
+  }
+}
