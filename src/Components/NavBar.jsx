@@ -16,6 +16,8 @@ const NavBar = () => {
       </div>
 
       <div className='nav'>
+
+        <ul>
       <li className="HOME">
           <Link to="/" className="home">HOME</Link>
         </li>
@@ -34,7 +36,7 @@ const NavBar = () => {
         {/* <li className="SERVICE"> */}
           {/* <Link to="services" className="services">SERVICES</Link> */}
         {/* </li>   */}
-         
+        </ul>
         </div>
 
         <div className='btn2'>
