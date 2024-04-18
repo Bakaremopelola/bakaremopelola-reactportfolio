@@ -9,7 +9,7 @@ function Footer() {
     <div className="Footer">
       <div className="logo">
         
-        <img src="../../src/pictures/Pink Brown Colorful Retro Aesthetic Photography Name Logo.jpg" alt="Logo" />
+        <img src="/../../src/pictures/Logo.jpg" alt="Logo" />
       </div>
 
       <div className="footer-text">

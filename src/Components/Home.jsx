@@ -35,7 +35,7 @@ function Home() {
         </div>
 
         <div className="Home2">
-          <img src="../src/pictures/1672508007664.jpg" />
+          <img src="/../src/pictures/1672508007664.jpg" />
         </div>
       </div>
     </>

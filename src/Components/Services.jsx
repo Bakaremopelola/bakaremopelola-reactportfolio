@@ -13,7 +13,7 @@ function Services() {
         
             <div className="MAP">
                 <div className="HT">
-                    <img src="../../src/pictures/pexels-mohi-syed-50614.jpg"/>
+                    <img src="/../../src/pictures/pexels-mohi-syed-50614.jpg"/>
                     <h2>MOBILE APP DEVELOPMENT</h2>
                 </div>
                 <div className="MAP-text">
@@ -23,7 +23,7 @@ function Services() {
             
             <div className="DAD">
                 <div className="HT">
-                    <img src="../../src/pictures/pexels-kevin-ku-577585.jpg" />
+                    <img src="/../../src/pictures/pexels-kevin-ku-577585.jpg" />
                     <h2>DESKTOP APP DEVELOPMENT</h2>
                 </div>
                 <div className="DAD-text">
@@ -33,7 +33,7 @@ function Services() {
             
             <div className="PL">
                 <div className="HT">
-                    <img src="../../src/pictures/programming language.jpeg"/>
+                    <img src="/../../src/pictures/programming language.jpeg"/>
                     <h2>PROGRAMMING LANGUAGES</h2>
                 </div>
                 <div className="pl-text">
