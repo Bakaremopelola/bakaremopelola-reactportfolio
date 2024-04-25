@@ -1,6 +1,6 @@
 import '../CSS/About.css'
 import { useNavigate } from "react-router-dom";
-import Logo from "../pictures/mylove.jpg"
+import lola7 from "../pictures/lola7.jpg"
 
 
 function About() {
@@ -13,7 +13,7 @@ function About() {
       <div className='Aboutpage'>
      
         <div className="aboutimage">
-          <img src = {Logo} />
+          <img src = "../pictures/lola7.jpg" />
 
         </div>
         <div className="aboutstory">

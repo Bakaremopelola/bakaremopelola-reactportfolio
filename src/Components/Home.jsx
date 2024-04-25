@@ -1,5 +1,6 @@
 import "../CSS/Home.css";
 import { useNavigate } from "react-router-dom";
+import mylove from "../pictures/mylove.jpg"
 
 function Home() {
 
@@ -35,7 +36,7 @@ function Home() {
         </div>
 
         <div className="Home2">
-          <img src="/../src/pictures/1672508007664.jpg" />
+          <img src="../pictures/mylove.jpg"/>
         </div>
       </div>
     </>
