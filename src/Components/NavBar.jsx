@@ -48,7 +48,7 @@ const NavBar = () => {
         <div className="Footer">
       <div className="logo">
         
-        <img src={Lola}/>
+        <img src='../../src/pictures/Lola.jpg '/>
       </div>
 
       <div className="footer-text">
