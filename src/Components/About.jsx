@@ -13,7 +13,7 @@ function About() {
       <div className='Aboutpage'>
      
         <div className="aboutimage">
-          <img src = "../pictures/lola7.jpg" />
+          <img src = {lola7} />
 
         </div>
         <div className="aboutstory">
