@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import '../CSS/NavBar.css'
 import { useNavigate } from "react-router-dom";
 import { FaFacebook, FaLinkedin, FaTwitter, FaGithub } from 'react-icons/fa';
-import Lola from "../pictures/Lola.jpg"
+import Logo1 from "../pictures/lola2.jpeg"
 
 
 const NavBar = () => {
@@ -12,7 +12,7 @@ const NavBar = () => {
     <nav className="NavBar">
       <div className='logo'>
         
-        <img src={Lola}/>
+        <img src={ Logo1}/>
 
       </div>
 
@@ -46,7 +46,7 @@ const NavBar = () => {
         </div>
 
         <div className="Footer">
-      <div className="logo">
+       <div className="logo">
         
         <img src='../../src/pictures/Lola.jpg '/>
       </div>

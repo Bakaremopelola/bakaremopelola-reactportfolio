@@ -1,4 +1,4 @@
-import {Routes, Route } from 'react-router-dom'
+  import {Routes, Route } from 'react-router-dom'
 import NavBar from './Components/NavBar'
 import './App.css'
 import Contacts from './Components/Contacts'
@@ -20,7 +20,7 @@ const App=()=> {
             <Route path='/About' element={<About/>}></Route>
             <Route path='/Contacts' element={<Contacts/>}></Route>
             <Route path='/Experience' element={<Experience/>}></Route>
-            <Route path='/Portfolio' element={<Portfolio/>}></Route>
+             <Route path='/Portfolio' element={<Portfolio/>}></Route>
             <Route path='/Services' element={<Services/>}></Route>
           </Routes>
       
