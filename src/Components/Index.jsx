@@ -63,29 +63,32 @@ const Index = () => {
 
   const projects = [
     {
-      id: "Project One",
-      title: "healthcare-system",
-      tools: "React, CSS",
-      description: "I used javascript language with React framework",
-      githubLink: "https://github.com/Bakaremopelola/healthcare-system", 
-      websiteLink: "https://healthcare-system-jet.vercel.app" 
-    },
-    {
-      id: "Project Two",
-      title: "Pinabyte",
-      tools: "React, CSS",
-      description: "HTML,CSS,JAVASCRIPT",
-      githubLink: "https://github.com/Bakaremopelola/pinabyte", 
-      websiteLink: "https://pinabyte.vercel.app" 
-    },
-    {
-      id: "Project Three",
-      title: "E-commerce Webpage",
-      tools: "React, CSS",
-      description: "React,JAVASCRIPT,HTML,CSS",
-      githubLink: "https://github.com/Bakaremopelola/Hng-stage2", 
-      websiteLink: "https://hng-stage2-iota.vercel.app", 
-    }
+    id: "Project One",
+    title: "healthcare-system",
+    tools: "React, CSS",
+    description: "I used JavaScript language with React framework",
+    githubLink: "https://github.com/Bakaremopelola/healthcare-system",
+    websiteLink: "https://healthcare-system-jet.vercel.app",
+    image: healthcare
+  },
+  {
+    id: "Project Two",
+    title: "Pinabyte",
+    tools: "React, CSS",
+    description: "HTML, CSS, JavaScript",
+    githubLink: "https://github.com/Bakaremopelola/pinabyte",
+    websiteLink: "https://pinabyte.vercel.app",
+    image: pinabyte
+  },
+     {
+    id: "Project Three",
+    title: "E-commerce Webpage",
+    tools: "React, CSS",
+    description: "React, JavaScript, HTML, CSS",
+    githubLink: "https://github.com/Bakaremopelola/Hng-stage2",
+    websiteLink: "https://hng-stage2-iota.vercel.app",
+    image: Ecommerce
+  }
   ];
   
 
@@ -164,24 +167,23 @@ const Index = () => {
            <p>Check out some of my personal and paid projects</p>
             </div>
 
-        <article className="project">
-          {projects && projects.map((project, index) => (
-        <div key={index} className="card">
-             <div className="project-info">
-               <div className="project-bio">
-                 <h3>{project.title}</h3>
-                 <h5>{project.toolss}</h5>
-                 <p>{project.description}</p>
-                   <a href={project.githubLink}>Github Link <FaGithub/> </a>
-                   <a href={project.websiteLink}>live link <FaLink/>  </a>
-              </div>
-                <div className="project-link">
-                 {/* Ensure links are rendered correctly */}
-                 <a href={project.githubLink} target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a>
-                  <a href={project.websiteLink} target="_blank" rel="noopener noreferrer"><i className="fas fa-globe"></i></a>
-                 </div>
-              </div>
+        {projects.map((project, index) => (
+      <div key={index} className="card">
+        <img src={project.image} alt={`${project.title} screenshot`} className="project-image" />
+        <div className="project-info">
+          <div className="project-bio">
+            <h3>{project.title}</h3>
+            <h5>{project.tools}</h5>
+            <p>{project.description}</p>
+            <a href={project.githubLink} target="_blank" rel="noopener noreferrer">
+              Github Link <FaGithub />
+            </a>
+            <a href={project.websiteLink} target="_blank" rel="noopener noreferrer">
+              Live Link <FaLink />
+            </a>
+          </div>
         </div>
+      </div>
     ))}
   </article>
 </section>
