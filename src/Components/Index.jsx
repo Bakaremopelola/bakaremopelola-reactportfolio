@@ -5,6 +5,9 @@ import Lola from '../assets/project/lola.jpg';
 import Lola2 from '../assets/project/lola2.jpg';
 import Sun from "../assets/sun.svg";
 import Moon from "../assets/moon.svg";
+import Ecommerce from "../assets/E-commerce.png";
+import healthcare from "../assets/healthcare.png";
+import pinabyte from "../assets/pinabyte.png";
 import { FaFacebook, FaLinkedin, FaTwitter, FaGithub, FaGlobe } from 'react-icons/fa';
 import { FaLink} from 'react-icons/fa';
 
