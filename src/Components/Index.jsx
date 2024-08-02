@@ -61,21 +61,27 @@ const Index = () => {
   const projects = [
     {
       id: "Project One",
+      title: "healthcare-system",
+      tools: "React, CSS",
       description: "I used javascript language with React framework",
-      githubLink: "https://github.com", 
-      websiteLink: "https://bakaremopelola-reactportfolio.vercel.app/" 
+      githubLink: "https://github.com/Bakaremopelola/healthcare-system", 
+      websiteLink: "https://healthcare-system-jet.vercel.app" 
     },
     {
       id: "Project Two",
+      title: "Pinabyte",
+      tools: "React, CSS",
       description: "HTML,CSS,JAVASCRIPT",
-      githubLink: "https://github.com", 
-      websiteLink: "https://imageslider-phi.vercel.app/" 
+      githubLink: "https://github.com/Bakaremopelola/pinabyte", 
+      websiteLink: "https://pinabyte.vercel.app" 
     },
     {
       id: "Project Three",
+      title: "E-commerce Webpage",
+      tools: "React, CSS",
       description: "React,JAVASCRIPT,HTML,CSS",
-      githubLink: "https://github.com", 
-      websiteLink: "https://disneyworld.vercel.app/", 
+      githubLink: "https://github.com/Bakaremopelola/Hng-stage2", 
+      websiteLink: "https://hng-stage2-iota.vercel.app", 
     }
   ];
   
@@ -161,6 +167,7 @@ const Index = () => {
              <div className="project-info">
                <div className="project-bio">
                  <h3>{project.title}</h3>
+                 <h5>{project.toolss}</h5>
                  <p>{project.description}</p>
                    <a href={project.githubLink}>Github Link <FaGithub/> </a>
                    <a href={project.websiteLink}>live link <FaLink/>  </a>
