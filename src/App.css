@@ -166,7 +166,7 @@
 .project .card {
   display: grid;
   grid-template-column: 1fr 1fr 1fr;
-  gap:1em;
+  gap: 1em;
   background: url(../assets/project/project-one.png) center center;
   border-radius: 10px; 
   padding: 20px; 
