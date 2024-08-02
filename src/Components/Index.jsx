@@ -100,7 +100,7 @@ const Index = () => {
                 <li><a className="nav-link" href="#About">ABOUT</a></li>
                 <li>
                 <button className="nav-link btn btn-primary"> 
-                 <a href="https://purple-janean-21.tiiny.site" target="_blank" download="MYCV"> RESUME</a><i className="fas fa-arrow-right"></i></button>
+                 <a href="https://purple-janean-21.tiiny.site" target="_blank" > RESUME</a><i className="fas fa-arrow-right"></i></button>
                 </li>
 
 
