@@ -1,4 +1,4 @@
-/* Buttons *
+/* Buttons */
 .btn {
   display: inline-block;
   padding: 0.75rem 1.9rem;
@@ -19,7 +19,7 @@
   color: var(--bg-primary);
 }
 
-/* add hover to resume button */
+/* Add hover to resume button */
 .btn-primary:hover {
   background: var(--secondary-color);
 }
@@ -84,44 +84,36 @@
   max-width: 700px;
 }
 
-
 #About {
   text-align: center;
   padding: 20px;
 }
 
-
 .profile-image {
-  border-radius: 50%; 
-  width: 200px; 
-  height: 200px; 
-  object-fit: cover; 
-  border: 3px solid #fff; 
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border: 3px solid #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-
 .aboutstory {
-  margin-top: 20px; 
+  margin-top: 20px;
 }
 
-
- .aboutstory h1 {
-  font-size: 24px; 
+.aboutstory h1 {
+  font-size: 24px;
   color: #333;
-} 
-
+}
 
 .aboutstory p {
   padding: 0.5rem;
   margin: 0 auto;
   max-width: 700px;
-  
 }
 
 /* Project cards */
-
-  
 .project {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -176,11 +168,7 @@
   text-decoration: underline;
 }
 
-
-
-
-
-
+/* Uncomment and adjust if necessary */
 /* .card a {
   color: ;
   transition: 0.25s ease-in-out;
@@ -188,53 +176,27 @@
   margin-right: 0.3rem;
 } */
 
-.card:hover .project-info {
-  opacity: 1;
-} 
-
-
-
- /* project 1  */
- /* .card:nth-child(1) {
+/* Example project background images */
+.card:nth-child(1) {
   background: url(../assets/project/project-one.png) center center;
-} */
+}
 
-/* Project 2 */
- /* .card:nth-child(2) {
+.card:nth-child(2) {
   background: url(../assets/project/project-two.png) center center;
-}  */
+}
 
-/* Project 3 */
- /* .card:nth-child(3) {
-  background: url(../assets/project/project-three.png) center center; */
-/* }  */
-
-/* Project 4 */
-/* .card:nth-child(4) {
-  background: url(../assets/project/project-four.png) center center/cover;
-} */
-
-/* Project 5 */
-/* .card:nth-child(5) {
-  background: url(../assets/project/project-five.png) center center/cover;
-} */
-
-/* Project 6 */
-/* .card:nth-child(6) {
-  background: url(../assets/project/project-six.png) center center/cover;
-/* }  */ 
+.card:nth-child(3) {
+  background: url(../assets/project/project-three.png) center center;
+}
 
 /* Media Queries */
-
-
-/* @media  only screen and (max-width:768px) {
+@media only screen and (max-width: 768px) {
   .header-container {
     margin-top: 7rem;
     text-align: center;
   }
-  
 
   .content-text h2 {
     font-size: 2.5rem;
   }
-} */
+}
