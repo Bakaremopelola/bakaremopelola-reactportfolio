@@ -5,9 +5,9 @@ import Lola from '../assets/project/lola.jpg';
 import Lola2 from '../assets/project/lola2.jpg';
 import Sun from "../assets/sun.svg";
 import Moon from "../assets/moon.svg";
-import Ecommerce from "../assets/E-commerce.png";
-import healthcare from "../assets/healthcare.png";
-import pinabyte from "../assets/pinabyte.png";
+import commerce from "../../assets/commerce.png";
+import healthcare from "../../assets/healthcare.png";
+import pinabyte from "../../assets/pinabyte.png";
 import { FaFacebook, FaLinkedin, FaTwitter, FaGithub, FaGlobe } from 'react-icons/fa';
 import { FaLink} from 'react-icons/fa';
 
@@ -87,7 +87,7 @@ const Index = () => {
     description: "React, JavaScript, HTML, CSS",
     githubLink: "https://github.com/Bakaremopelola/Hng-stage2",
     websiteLink: "https://hng-stage2-iota.vercel.app",
-    image: Ecommerce
+    image: commerce
   }
   ];
   
@@ -166,8 +166,9 @@ const Index = () => {
            <h2>Projects</h2>
            <p>Check out some of my personal and paid projects</p>
             </div>
-
+            <article className="project">
         {projects.map((project, index) => (
+           
       <div key={index} className="card">
         <img src={project.image} alt={`${project.title} screenshot`} className="project-image" />
         <div className="project-info">
