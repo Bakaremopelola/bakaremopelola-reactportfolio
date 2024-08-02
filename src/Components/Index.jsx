@@ -200,7 +200,7 @@ const Index = () => {
           </div>
         </footer>
 
-        <img src={{MYCV}} />
+{/*         <img src={{MYCV}} /> */}
       </div>
 
     </>
