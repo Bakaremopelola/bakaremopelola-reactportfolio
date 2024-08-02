@@ -6,10 +6,7 @@ import Lola2 from '../assets/project/lola2.jpg';
 import Sun from "../assets/sun.svg";
 import Moon from "../assets/moon.svg";
 import { FaFacebook, FaLinkedin, FaTwitter, FaGithub, FaGlobe } from 'react-icons/fa';
-// import MYCV from "../assets/MOPELOLAHAUWABAKARECV.docx"
-import MYCV from '../assets/MOPELOLAHAUWABAKARECV.pdf'
 import { FaLink} from 'react-icons/fa';
-// import { useNavigate } from 'react-router-dom';
 
 
 
@@ -103,7 +100,7 @@ const Index = () => {
                 <li><a className="nav-link" href="#About">ABOUT</a></li>
                 <li>
                 <button className="nav-link btn btn-primary"> 
-                 <a href="https://drive.google.com/file/d/1zwbaaaz4D_ViJrwcpZkljXFyn_vIbYlV/view?usp=drive_link" target="_blank" download="MYCV"> RESUME</a><i className="fas fa-arrow-right"></i></button>
+                 <a href="https://purple-janean-21.tiiny.site" target="_blank" download="MYCV"> RESUME</a><i className="fas fa-arrow-right"></i></button>
                 </li>
 
 
